@@ -1,0 +1,53 @@
+# ---------------- Python cache ----------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------- Virtual environments ----------------
+convert_env/
+gesture_env/
+mp_live_env/
+venv/
+env/
+.venv/
+
+# ---------------- OS / editor junk ----------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---------------- Large datasets ----------------
+RAW DATASET/
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.png
+
+# ---------------- Extracted frames ----------------
+NEW_FRAMES/
+extracted_frames_*/
+frames_*/
+
+# ---------------- CSVs (keep only final ones if needed) ----------------
+# Uncomment if you DON'T want datasets on GitHub
+# CSVs/
+# *.csv
+
+# ---------------- Models (optional rule) ----------------
+# Keep only your final .keras model, ignore others
+*.h5
+
+# ---------------- Temporary files ----------------
+tempCodeRunnerFile.py
+*.log
+
+# ---------------- Jupyter notebooks ----------------
+.ipynb_checkpoints/
+
+# ---------------- Build / packaging ----------------
+dist/
+build/
+*.egg-info/
