@@ -1,4 +1,4 @@
-# ✈️ Hand Gesture Controlled Drone System
+# Hand Gesture Controlled Drone System
 
 This project implements a real-time hand gesture recognition system designed to control a drone using only a webcam. The system detects hand movements, extracts landmark features using MediaPipe, and classifies gestures with a trained neural network model. The goal is to build an intuitive, touch-free control interface by combining computer vision and deep learning.
 
