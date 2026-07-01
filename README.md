@@ -4,20 +4,20 @@ This project implements a real-time hand gesture recognition system designed to 
 
 ---
 
-## 🎯 Supported Gestures
+## Supported Gestures
 
 The system currently recognizes four gestures:
 
-- 👍 **Up** – Increase altitude  
-- 👎 **Down** – Decrease altitude  
-- 👉 **Left** – Move left  
-- 👈 **Right** – Move right  
+- **Up** – Increase altitude  
+- **Down** – Decrease altitude  
+- **Left** – Move left  
+- **Right** – Move right  
 
 These gestures can be mapped directly to drone commands.
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. MediaPipe detects 21 hand landmarks from each webcam frame.  
 2. Landmark coordinates are normalized relative to the wrist to remove position bias.  
@@ -27,7 +27,7 @@ These gestures can be mapped directly to drone commands.
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 - Python  
 - OpenCV  
@@ -37,7 +37,7 @@ These gestures can be mapped directly to drone commands.
 
 ---
 
-## 🏋️ Model Training
+## Model Training
 
 A custom dataset was collected using webcam recordings with multiple variations such as palm orientation, wrist rotation, distance from camera, and lighting conditions. This improves the robustness of the model in real-world usage.
 
@@ -50,7 +50,7 @@ This will generate the trained model along with the scaler and label encoder req
 
 ---
 
-## ▶️ Running the System
+## Running the System
 
 Activate your environment and run:
 
@@ -60,7 +60,7 @@ Press ESC to exit the camera window.
 
 ---
 
-## 🔮 Possible Improvements
+## Possible Improvements
 
 - Direct integration with drone SDKs (DJI Tello etc.)  
 - Additional gestures such as Flip, Hover, or Stop  
@@ -70,9 +70,3 @@ Press ESC to exit the camera window.
 
 ---
 
-## 👨‍💻 Author
-
-**Uday Raj Malik**  
-B.Tech Computer Science Student  
-
-If you find this project useful, consider giving it a ⭐ on GitHub.
